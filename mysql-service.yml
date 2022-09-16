@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: mysql-service
-  labels:
-    app: mysql-service
-spec:
-  type: ExternalName
-  externalName: user-service-db.cvfb9wqhvm.us-east-1.rds.amazonaws.com
